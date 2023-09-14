@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Website Design</title>
+    <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo.png" alt="logo">
+            </a>
+            <div class="search-box">
+                <img src="assets/images/search.png" alt="">
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="#" class="active-link"><img src="assets/images/home.png"><span>Home</span></a></li>
+                <li><a href="#"><img src="assets/images/network.png"><span>My Network</span></a></li>
+                <li><a href="#"><img src="assets/images/jobs.png"><span>Jobs</span></a></li>
+                <li><a href="#"><img src="assets/images/message.png"><span>Messaging</span></a></li>
+                <li><a href="#"><img src="assets/images/notification.png"><span>Notifications</span></a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="assets/images/user-1.png" class="nav-profile-img" onclick="toggleMenu()">
+            </div>
+        </div>
+
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="assets/images/user-1.png">
+                    <div>
+                        <h3>Rayan Walton</h3>
+                        <a href="#">See you profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="assets/images/feedback.png">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="assets/images/setting.png">
+                    <p>Settings & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="assets/images/help.png">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="assets/images/display.png">
+                    <p>Display & Accesibility</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="assets/images/logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- ------------------- navbar close -----------------  -->
+
+    <div class="container">
+        <div class="profile-main">
+            <div class="profile-container">
+                <img src="assets/images/cover-pic.png" width="100%">
+                <div class="profile-container-inner">
+                    <img src="assets/images/user-1.png" class="profile-pic">
+                    <h1>Rayan Walton</h1>
+                    <b>Web Developer at Microsoft 1 Former developer at DataStack and Intern at Oracle</b>
+                    <p>San Francisco, United States &middot; <a href="#">Contac info</a></p>
+                    <div class="mutual-conection">
+                        <img src="assets/images/user-2.png">
+                        <span>1 mutual connextion:Orlando Diggs</span>
+                    </div>
+                    <div class="profile-btn">
+                        <a href="#" class="primary-btn"><img src="assets/images/connect.png">Connect</a>
+                        <a href="#"><img src="assets/images/chat.png">Message</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="profile-sidebar"></div>
+    </div>
+</body>
+<script src="./js/main.js"></script>
+</html>
